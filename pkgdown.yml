@@ -1,9 +1,9 @@
-pandoc: 3.6.3
+pandoc: 3.1.11
 pkgdown: 2.1.1
 pkgdown_sha: ~
 articles:
   introduction: introduction.html
-last_built: 2025-04-13T03:49Z
+last_built: 2025-04-13T06:47Z
 urls:
   reference: https://dsci-310-2025.github.io/covidanxietytrends/reference
   article: https://dsci-310-2025.github.io/covidanxietytrends/articles
