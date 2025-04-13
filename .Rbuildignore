@@ -1,0 +1,10 @@
+^covidanxietytrends\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
+
+history.R
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^\.github$
+^codecov\.yml$

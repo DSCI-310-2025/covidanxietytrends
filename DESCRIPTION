@@ -1,0 +1,39 @@
+Package: covidanxietytrends
+Title: Analyze Correlations Between COVID-19 Metrics and Anxiety Search Trends
+Version: 1.0.0
+Authors@R: c(person(given ="Vincy",family ="Huang",, "vincyxl@student.ubc.ca", role = c("aut", "cre")),
+    person(given ="Alina",family ="Hameed",, "Alina2002Hameed@gmail.com", role = "aut"),
+    person(given ="Charlotte",family ="Ren",, "127cren@gmail.com", role = "aut"),
+    person(given ="Alan",family ="Lee",, "alanhimself@outlook.com", role = "aut"))
+Description: Provides tools to analyze relationships between COVID-19 public health 
+    metrics (hospitalizations, vaccinations) and anxiety-related Google search trends. 
+    Includes functions for data cleaning, feature selection, and visualization.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    dplyr,
+    GGally,
+    ggplot2,
+    readr,
+    stats,
+    tibble,
+    tidyr,
+    leaps,
+    broom,
+    Metrics,
+    lubridate,
+    rlang
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown,
+    covr,
+    tidymodels,
+    tidyverse,
+    here
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+URL: https://github.com/DSCI-310-2025/covidanxietytrends, https://dsci-310-2025.github.io/covidanxietytrends/
+BugReports: https://github.com/DSCI-310-2025/covidanxietytrends/issues
