@@ -1,6 +1,0 @@
-url: https://dsci-310-2025.github.io/covidanxietytrends/
-template:
-  bootstrap: 5
-
-home:
-  path: README.md
